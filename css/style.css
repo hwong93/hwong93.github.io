@@ -170,6 +170,9 @@ Slider navigation
 
 -------------------------------- */
 @media only screen and (min-width: 0px){
+  body {
+    overflow-y: scroll;
+  }
   .cd-slider-navigation {
     position: absolute;
     bottom: 25%;
@@ -445,7 +448,7 @@ projects
 
 
   #container{
-    width:80%;
+    width:70%;
     border-style:solid;
     height:auto;
     border-width:1px;
