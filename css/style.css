@@ -26,6 +26,9 @@ a {
 h3{
 
 }
+h5 {
+  color: white;
+}
 
 /* --------------------------------
 
@@ -64,25 +67,24 @@ Slider
 }
 .cd-slider > li:first-of-type {
   background-color: #4a3553;
-  background-image: url(../img/img-1.jpg);
+  background-image: url(../img/city-lighting-buildings.jpg);
 }
 .cd-slider > li:nth-of-type(2) {
-  background-color: #ffb251;
-  background-image: url(../img/img-2.jpg);
+  background-color: #36558F;
 }
 .cd-slider > li:nth-of-type(3) {
   background-color: #7d7160;
   background-image: url(../img/img-3.jpg);
 }
 .cd-slider > li:nth-of-type(4) {
-  background-color: #ff625a;
-  background-image: url(../img/img-4.jpg);
+  background-color: #96ACB7;
 }
 .cd-slider > li:nth-of-type(5) {
-  background-color: tomato;
+  background-color: #2a2aff;
+  background-image: url(../img/workspace5_hires.JPG)
 }
 .cd-slider > li:nth-of-type(6) {
-  background-color: tomato;
+  background-color: #D4E4BC;
 }
 .cd-slider > li:first-of-type, .cd-slider > li:nth-of-type(2), .cd-slider > li:nth-of-type(3), .cd-slider > li:nth-of-type(4), .cd-slider > li:nth-of-type(5),.cd-slider > li:nth-of-type(6) {
   background-size: cover;
@@ -190,7 +192,7 @@ Slider navigation
 
 @media only screen and (min-width: 1170px) {
   .cd-slider-navigation {
-    bottom: 15%;
+    top: 15%;
   }
 
 }
@@ -264,16 +266,16 @@ Slider navigation
   background-position: -190px -70px;
 }
 .cd-slider-navigation li:nth-of-type(5) a {
-  background-position: -190px -10px;
+  background-position: -250px -10px;
 }
 .cd-slider-navigation li.selected:nth-of-type(5) a {
-  background-position: -190px -70px;
+  background-position: -250px -70px;
 }
 .cd-slider-navigation li:nth-of-type(6) a {
-  background-position: -190px -10px;
+  background-position: -310px -10px;
 }
 .cd-slider-navigation li.selected:nth-of-type(6) a {
-  background-position: -190px -70px;
+  background-position: -310px -70px;
 }
 .cd-slider-navigation em {
   position: absolute;
@@ -343,16 +345,16 @@ Slider navigation
     background-position: -180px -60px;
   }
   .cd-slider-navigation li:nth-of-type(5) a {
-    background-position: -60px 0;
+    background-position: -240px 0;
   }
   .cd-slider-navigation li.selected:nth-of-type(5) a {
-    background-position: -60px -60px;
+    background-position: -240px -60px;
   }
   .cd-slider-navigation li:nth-of-type(6) a {
-    background-position: -60px 0;
+    background-position: -300px 0;
   }
   .cd-slider-navigation li.selected:nth-of-type(6) a {
-    background-position: -60px -60px;
+    background-position: -300px -60px;
   }
 }
 
@@ -405,11 +407,10 @@ profile picture
   border: 2px solid white;
 }
 
-.contain {
+.aboutme-contain {
   width: 80%;
   margin-left: auto;
   margin-right: auto;
-
 }
 
 
@@ -420,19 +421,27 @@ projects
 
 -------------------------------- */
 
-.projwrap {
-  width: 80%;
-  height: 80%;
-  margin-left: auto;
-  margin-right: auto;
-  overflowY;
-
+@media only screen and (min-width: 0px) {
+  .projwrap {
+    width: 80%;
+    height: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    overflow-y: scroll;
+  }
 }
+
+@media only screen and (min-width: 325px) {
+  .projwrap {
+    overflow: hidden;
+  }
+}
+
+
 
 .proj {
   width: 50%;
   height: 250px;
-  overflow: hidden;
   float: left;
 }
 
@@ -702,4 +711,17 @@ projects
   {
     from{width:150px;}
     to{width:80%;}
+  }
+
+
+  /* --------------------------------
+
+  Education
+
+  -------------------------------- */
+
+  .institutions {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
   }
