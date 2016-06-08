@@ -189,7 +189,7 @@ Slider navigation
 
 @media only screen and (min-width: 1170px) {
   .cd-slider-navigation {
-    top: 15%;
+    top: 10%;
   }
 
 }
@@ -429,7 +429,7 @@ projects
   }
 }
 
-@media only screen and (min-width: 400px) {
+@media only screen and (min-width: 500px) {
   .projwrap {
     overflow: hidden;
   }
