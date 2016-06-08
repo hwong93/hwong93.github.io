@@ -429,7 +429,7 @@ projects
   }
 }
 
-@media only screen and (min-width: 325px) {
+@media only screen and (min-width: 400px) {
   .projwrap {
     overflow: hidden;
   }
