@@ -23,9 +23,6 @@ a {
   text-decoration: none;
 }
 
-h3{
-
-}
 h5 {
   color: white;
 }
@@ -392,6 +389,7 @@ lists
 .interests > li{
   display: inline-block;
   margin-left: 1em;
+  color: #ffb251;
 }
 
 /* --------------------------------
