@@ -81,7 +81,7 @@ Slider
   background-image: url(../img/workspace5_hires.JPG)
 }
 .cd-slider > li:nth-of-type(6) {
-  background-color: #D4E4BC;
+  background-color: #D4E462;
 }
 .cd-slider > li:first-of-type, .cd-slider > li:nth-of-type(2), .cd-slider > li:nth-of-type(3), .cd-slider > li:nth-of-type(4), .cd-slider > li:nth-of-type(5),.cd-slider > li:nth-of-type(6) {
   background-size: cover;
@@ -429,7 +429,7 @@ projects
   }
 }
 
-@media only screen and (min-width: 500px) {
+@media only screen and (min-width: 700px) {
   .projwrap {
     overflow: hidden;
   }
@@ -466,10 +466,7 @@ projects
     width:65%;
     border-style:solid;
     height:auto;
-    border-width:1px;
     margin:40px auto;
-    background-color:white;
-    border:solid 1px #cdcdcd;
     padding-bottom:10px;
 
   }
