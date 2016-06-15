@@ -173,7 +173,7 @@ Slider navigation
 @media only screen and (min-width: 0px){
   .cd-slider-navigation {
     position: absolute;
-    top: 25%;
+    bottom: 30%;
     left: 6%;
     right: auto;
     -webkit-transform: translateX(-50%);
@@ -184,6 +184,12 @@ Slider navigation
     z-index: 3;
     text-align: center;
     width: 10%;
+  }
+}
+
+@media only screen and (min-width: 400px) {
+  .cd-slider-navigation {
+    bottom: 25%;
   }
 }
 
