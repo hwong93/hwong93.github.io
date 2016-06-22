@@ -148,4 +148,13 @@ $(document).ready(function(){
     $('.prog5').attr('id', 'progresso5')
   });
 
+  $('.onClick').on('click', function(){
+    $('.prog1').removeAttr('id', 'progresso1')
+    $('.prog2').removeAttr('id', 'progresso2')
+    $('.prog3').removeAttr('id', 'progresso3')
+    $('.prog4').removeAttr('id', 'progresso4')
+    $('.prog5').removeAttr('id', 'progresso5')
+  })
+
+
 });

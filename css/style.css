@@ -67,7 +67,7 @@ Slider
   background-image: url(../img/city-lighting-buildings.jpg);
 }
 .cd-slider > li:nth-of-type(2) {
-  background-color: #36558F;
+  background-color: #96ACB7;
 }
 .cd-slider > li:nth-of-type(3) {
   background-color: #7d7160;
@@ -81,7 +81,7 @@ Slider
   background-image: url(../img/workspace5_hires.JPG)
 }
 .cd-slider > li:nth-of-type(6) {
-  background-color: #D4E2C2;
+  background-color: #96ACB7;
 }
 .cd-slider > li:first-of-type, .cd-slider > li:nth-of-type(2), .cd-slider > li:nth-of-type(3), .cd-slider > li:nth-of-type(4), .cd-slider > li:nth-of-type(5),.cd-slider > li:nth-of-type(6) {
   background-size: cover;
