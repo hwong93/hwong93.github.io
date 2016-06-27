@@ -433,21 +433,25 @@ projects
     margin-right: auto;
     overflow-y: scroll;
   }
+  .proj {
+    display: block;
+    margin-bottom: 5em;
+  }
 }
 
 @media only screen and (min-width: 700px) {
   .projwrap {
     overflow: hidden;
   }
+  .proj {
+    width: 50%;
+    height: 250px;
+    float: left;
+  }
 }
 
 
 
-.proj {
-  width: 50%;
-  height: 250px;
-  float: left;
-}
 
 
 
