@@ -447,6 +447,7 @@ projects
     width: 50%;
     height: 250px;
     float: left;
+    margin-bottom: 2em;
   }
 }
 
@@ -516,7 +517,6 @@ projects
     font-size:18px;
   }
 
-  /*Wordpress block */
 
   #progresso1{
     width:80%;
