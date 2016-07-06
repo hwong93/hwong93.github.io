@@ -53,6 +53,7 @@ $(document).ready(function(){
 	}
 
 	function updateSlide(oldSlide, newSlide, direction, svgCoverLayer, sliderNavigation, paths, svgPath) {
+    clearClass();
 		if( direction == 'next' ) {
 			var path1 = paths[0],
 				path2 = paths[2],
