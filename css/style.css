@@ -67,21 +67,21 @@ Slider
   background-image: url(../img/city-lighting-buildings.jpg);
 }
 .cd-slider > li:nth-of-type(2) {
-  background-color: #96ACB7;
+  background-color: #0672ba;
 }
 .cd-slider > li:nth-of-type(3) {
   background-color: #7d7160;
   background-image: url(../img/img-3.jpg);
 }
 .cd-slider > li:nth-of-type(4) {
-  background-color: #96ACB7;
+  background-color: #0672ba;
 }
 .cd-slider > li:nth-of-type(5) {
   background-color: #2a2aff;
   background-image: url(../img/workspace5_hires.JPG)
 }
 .cd-slider > li:nth-of-type(6) {
-  background-color: #96ACB7;
+  background-color: #0672ba;
 }
 .cd-slider > li:first-of-type, .cd-slider > li:nth-of-type(2), .cd-slider > li:nth-of-type(3), .cd-slider > li:nth-of-type(4), .cd-slider > li:nth-of-type(5),.cd-slider > li:nth-of-type(6) {
   background-size: cover;
@@ -376,7 +376,7 @@ svg cover layer
   opacity: 0;
 }
 .cd-svg-cover path {
-  fill: #ffe8c9;
+  fill: #adadad;
 }
 .cd-svg-cover.is-animating {
   z-index: 4;
@@ -431,40 +431,71 @@ projects
     height: 80%;
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
     overflow-y: scroll;
   }
   .proj {
     display: block;
-    margin-bottom: 5em;
   }
 }
 
 @media only screen and (min-width: 700px) {
-  .projwrap {
+  .projwrap{
     overflow: hidden;
   }
   .proj {
-    width: 50%;
+    width: 25%;
     height: 250px;
     float: left;
     margin-bottom: 2em;
+    display: block;
+  }
+  .seemore{
+    display: block;
+    position: absolute;
+    top: 35%;
+    left: 0;
   }
 }
 
-
+.contribute1,
+.contribute2,
+.contribute3,
+.contribute4{
+  display: none;
+  width: 100%;
+  height: 12em;
+}
+.seemore{
+  display: block;
+}
 
 
 
 
 .pic-banner {
-  width: 50%;
-  height: 50%;
+
+  width: 100%;
+  height: 5em;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .boldme {
   font-weight: bolder;
 }
 
+.buttons-wrapper {
+  height: 3em;
+  width: 100%;
+}
+
+.link-btn {
+  display: inline-block;
+  width: 40%;
+  line-height: 4em;
+  color: white;
+}
 
   /* --------------------------------
 

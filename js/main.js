@@ -91,7 +91,6 @@ $(document).ready(function(){
 	}
 
 	function bezier(x1, y1, x2, y2, epsilon){
-		//https://github.com/arian/cubic-bezier
 		var curveX = function(t){
 			var v = 1 - t;
 			return 3 * v * v * t * x1 + 3 * v * t * t * x2 + t * t * t;
@@ -111,7 +110,6 @@ $(document).ready(function(){
 
 			var x = t, t0, t1, t2, x2, d2, i;
 
-			// First try a few iterations of Newton's method -- normally very fast.
 			for (t2 = x, i = 0; i < 8; i++){
 				x2 = curveX(t2) - x;
 				if (Math.abs(x2) < epsilon) return curveY(t2);
@@ -125,7 +123,6 @@ $(document).ready(function(){
 			if (t2 < t0) return curveY(t0);
 			if (t2 > t1) return curveY(t1);
 
-			// Fallback to the bisection method for reliability.
 			while (t0 < t1){
 				x2 = curveX(t2);
 				if (Math.abs(x2 - x) < epsilon) return curveY(t2);
@@ -134,11 +131,37 @@ $(document).ready(function(){
 				t2 = (t1 - t0) * .5 + t0;
 			}
 
-			// Failure
 			return curveY(t2);
 
 		};
 	};
+
+  // Projects
+  function clearClass(target){
+
+    $('.seemore').removeClass('seemore');
+  }
+
+  $('#project1').on('click', function(ev){
+    clearClass();
+    $('.contribute1').addClass('seemore');
+  })
+  $('#project2').on('click', function(ev){
+    clearClass();
+    $('.contribute2').addClass('seemore');
+  })
+  $('#project3').on('click', function(ev){
+    clearClass();
+    $('.contribute3').addClass('seemore');
+  })
+  $('#project4').on('click', function(ev){
+    clearClass();
+    $('.contribute4').addClass('seemore');
+  })
+
+
+
+  // Skill Animations
 
   $('.button').on('click', function(){
     $('.prog1').attr('id', 'progresso1')
@@ -155,6 +178,7 @@ $(document).ready(function(){
     $('.prog4').removeAttr('id', 'progresso4')
     $('.prog5').removeAttr('id', 'progresso5')
   })
+
 
 
 });
