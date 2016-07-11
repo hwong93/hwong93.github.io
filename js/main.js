@@ -140,24 +140,24 @@ $(document).ready(function(){
   // Projects
   function clearClass(target){
 
-    $('.seemore').removeClass('seemore');
+    $('.animated').removeClass('animated bounceInDown');
   }
 
   $('#project1').on('click', function(ev){
     clearClass();
-    $('.contribute1').addClass('seemore');
+    $('.contribute1').addClass('animated bounceInDown');
   })
   $('#project2').on('click', function(ev){
     clearClass();
-    $('.contribute2').addClass('seemore');
+    $('.contribute2').addClass('animated bounceInDown');
   })
   $('#project3').on('click', function(ev){
     clearClass();
-    $('.contribute3').addClass('seemore');
+    $('.contribute3').addClass('animated bounceInDown');
   })
   $('#project4').on('click', function(ev){
     clearClass();
-    $('.contribute4').addClass('seemore');
+    $('.contribute4').addClass('animated bounceInDown');
   })
 
 

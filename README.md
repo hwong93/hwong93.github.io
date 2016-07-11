@@ -4,7 +4,7 @@ This is my portfolio page. My main goal when making this page was to improve my 
 
 There are still many things I would like to add/try out in this page:
 
-1. More web responsive.
+1. More web responsive (fix navigation slider when with mobile)
 2. More animations(have a header that would constantly display projects I'm working on at the moment)
 3. Add a contact form.
 4. Still debating on adding Job Experience since for now, none of my job experience relates to Web Development.
