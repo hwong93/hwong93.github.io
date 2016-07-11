@@ -104,7 +104,7 @@ Slider
   font-size: 3.4rem;
 }
 .cd-slider > li h3 {
-  font-size: 1.4rem;
+  font-size: 2.4rem;
   color: white;
 }
 .cd-slider > li p {
@@ -584,10 +584,53 @@ projects
   skills
 
   -------------------------------- */
+  @media only screen and (min-width: 0px) {
+    .contain-skill{
+      width: 100%;
+      height: 80%;
+      overflow-y: scroll;
+    }
+    .test {
+      width: 100%;
+      float: left;
+      vertical-align: middle;
+    }
+    .moskill {
+      width: 100%;
+      float: left;
+      text-align: center;
+    }
+  }
+  @media only screen and (min-width: 700px) {
+    .contain-skill{
+      width: 100%;
+      height: 80%;
+      overflow-y: hidden;
+    }
+    .test {
+      width: 60%;
+      float: none;
+      display: inline-block;
+    }
+    .moskill{
+      float: none;
+      width: 35%;
+      display: inline-block;
 
+      text-align: left;
+      vertical-align: middle;
+    }
+  }
+
+
+
+  .moskill li {
+    color: #ffb251;
+    margin-bottom: 2%;
+  }
 
   #container{
-    width:65%;
+    width:90%;
     border-style:solid;
     height:auto;
     margin:40px auto;
