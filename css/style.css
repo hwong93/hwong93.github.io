@@ -404,19 +404,61 @@ profile picture
 
 -------------------------------- */
 
-.picture {
-  width: 200px;
-  height: 200px;
-  border-radius: 100%;
-  border: 2px solid white;
-}
+@media only screen and (min-width: 0px){
+  .picture {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    border: 2px solid white;
+  }
 
-.aboutme-contain {
-  width: 80%;
-  margin-left: auto;
-  margin-right: auto;
+  .aboutme-contain {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
+@media only screen and (min-width: 800px){
 
+  .picture {
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    border: 2px solid white;
+  }
+  .title{
+    position: absolute;
+    top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+  .aboutme-contain{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+  }
+
+  .aboutme-left{
+    width:40%;
+    float: left;
+  }
+  .aboutme-right{
+    width: 60%;
+    float: left;
+    padding: 10px;
+  }
+
+  #about-p {
+    font-size: 2rem;
+    margin-bottom: 15px;
+  }
+
+  .interests{
+    margin-top: 15px;
+  }
+}
 
 
 /* --------------------------------
