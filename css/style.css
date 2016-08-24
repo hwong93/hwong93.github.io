@@ -452,11 +452,11 @@ profile picture
 
   #about-p {
     font-size: 2rem;
-    margin-bottom: 15px;
+
   }
 
   .interests{
-    margin-top: 15px;
+    margin-top: 30px;
   }
 }
 
@@ -501,15 +501,21 @@ projects
     top: 35%;
     left: 0;
   }
+
 }
 
 .contribute1,
 .contribute2,
 .contribute3,
 .contribute4{
+
   display: none;
   width: 100%;
   height: 12em;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+
 }
 
 
@@ -517,7 +523,6 @@ projects
 
 
 .pic-banner {
-
   width: 100%;
   height: 5em;
   margin-left: auto;
