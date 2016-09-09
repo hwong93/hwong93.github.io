@@ -541,9 +541,18 @@ projects
 
 .link-btn {
   display: inline-block;
-  width: 40%;
   line-height: 4em;
   color: white;
+
+}
+
+.btn{
+  padding: 10px;
+  color:#7e7161;
+  font-weight: bold;
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 5px;
 }
 
 .animated {
