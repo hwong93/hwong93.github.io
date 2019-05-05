@@ -141,7 +141,7 @@ const Contact = () => {
 								<Icon href="https://www.linkedin.com/in/houtaiwong" target="_blank" title="LinkedIn"><i className="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></Icon>
 								<Icon href={portfolio} target="_blank" title="Download Resume"><i className="fa fa-file-pdf-o fa-2x" aria-hidden="true"></i></Icon>
 							</IconContainer>
-							<Submit type="submit">Submit</Submit>
+							<Submit type="submit">Send</Submit>
 						</BottomContainer>
 					</Form>
 					</InViewMonitor>

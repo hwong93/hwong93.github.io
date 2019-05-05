@@ -92,7 +92,7 @@ const expertise = [
 				{
 					name: 'React',
 					logo: react,
-					proficiency: 95,
+					proficiency: 90,
 				},
 				{
 					name: 'Javascript',
@@ -102,17 +102,17 @@ const expertise = [
 				{
 					name: 'React Native',
 					logo: react,
-					proficiency: 60,
+					proficiency: 50,
 				},
 				{
 					name: 'jQuery',
 					logo: jquery,
-					proficiency: 60,
+					proficiency: 90,
 				},
 				{
 					name: 'Node',
 					logo: node,
-					proficiency: 60,
+					proficiency: 90,
 				},
 			]
 		},
@@ -127,12 +127,12 @@ const expertise = [
 				{
 					name: 'Salesforce',
 					logo: salesforce,
-					proficiency: 90,
+					proficiency: 70,
 				},
 				{
 					name: 'Magento',
 					logo: magento,
-					proficiency: 90,
+					proficiency: 70,
 				},
 			]
 		},
@@ -142,7 +142,7 @@ const expertise = [
 				{
 					name: 'ElasticSearch',
 					logo: elasticsearch,
-					proficiency: 90,
+					proficiency: 80,
 				},
 				{
 					name: 'GraphQL',
@@ -152,12 +152,12 @@ const expertise = [
 				{
 					name: 'Amazon Web Services',
 					logo: aws,
-					proficiency: 90,
+					proficiency: 75,
 				},
 				{
 					name: 'Jenkins',
 					logo: jenkins,
-					proficiency: 90,
+					proficiency: 85,
 				},
 			]
 		}
