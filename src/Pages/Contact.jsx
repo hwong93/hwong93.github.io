@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import portfolio from '../img/houtai-wong-portfolio.pdf';
 import { green } from '../colors';
 import { noto } from '../font';
+import InViewMonitor from 'react-inview-monitor';
 
 const Container = styled.div`
 	width: 100vw;
@@ -122,23 +123,29 @@ const Icon = styled.a`
 const Contact = () => {
 	return (
 		<Container id="#contact">
-			<Content>
-				<Form method="POST" action="https://formspree.io/houtaiw61@gmail.com">
-					<Title>Contact</Title>
-					<Input type="text" name="name" placeholder="Name" />
-					<Input type="email" name="email" placeholder="Your email" />
-					<Input type="text" name="subject" placeholder="Subject" />
-					<TextArea name="message" placeholder="Leave a message here..."></TextArea>
-					<BottomContainer>
-						<IconContainer>
-							<Icon href="https://github.com/hwong93" target="_blank" title="Github"><i className="fa fa-github fa-2x" aria-hidden="true"></i></Icon>
-							<Icon href="https://www.linkedin.com/in/houtaiwong" target="_blank" title="LinkedIn"><i className="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></Icon>
-							<Icon href={portfolio} target="_blank" title="Download Resume"><i className="fa fa-file-pdf-o fa-2x" aria-hidden="true"></i></Icon>
-						</IconContainer>
-						<Submit type="submit">Submit</Submit>
-					</BottomContainer>
-				</Form>
-			</Content>
+				<Content>
+					<InViewMonitor
+						classNameNotInView='vis-hidden'
+						classNameInView='animated fadeIn' // fadeInLeft, or fadeInRight
+						intoViewMargin="-10%"
+					>
+					<Form method="POST" action="https://formspree.io/houtaiw61@gmail.com">
+						<Title>Contact</Title>
+						<Input type="text" name="name" placeholder="Name" />
+						<Input type="email" name="email" placeholder="Your email" />
+						<Input type="text" name="subject" placeholder="Subject" />
+						<TextArea name="message" placeholder="Leave a message here..."></TextArea>
+						<BottomContainer>
+							<IconContainer>
+								<Icon href="https://github.com/hwong93" target="_blank" title="Github"><i className="fa fa-github fa-2x" aria-hidden="true"></i></Icon>
+								<Icon href="https://www.linkedin.com/in/houtaiwong" target="_blank" title="LinkedIn"><i className="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></Icon>
+								<Icon href={portfolio} target="_blank" title="Download Resume"><i className="fa fa-file-pdf-o fa-2x" aria-hidden="true"></i></Icon>
+							</IconContainer>
+							<Submit type="submit">Submit</Submit>
+						</BottomContainer>
+					</Form>
+					</InViewMonitor>
+				</Content>
 		</Container>
 	);
 }

@@ -33,12 +33,12 @@ class App extends Component {
 			if (window.innerWidth <= 768) {
 				this.setState({
 					showMobile: true,
-					showPage: page[1],
+					showPage: `${page[1] ? page[1] : 'home'}`,
 				});
 			} else {
 				this.setState({
 					showMobile: false,
-					showPage: page[1],
+					showPage: `${page[1] ? page[1] : 'home'}`,
 				});
 			}
 		});
