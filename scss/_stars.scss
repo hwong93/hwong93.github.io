@@ -1,0 +1,132 @@
+$starFieldWidth: 2560;
+$starFieldHeight: 2560;
+$starStartOffset: 600px;
+
+$starOneScrollDuration: 100s;
+$starTwoScrollDuration: 125s;
+$starThreeScrollDuration: 175s;
+$numStarOneStars: 700;
+$numStarTwoStars: 700;
+$numStarThreeStars: 300;
+$width: 100%;
+
+
+  .container {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: #0F2027;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+		text-align: center;
+  }
+  .contact-info {
+    display: block;
+    width: auto;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    left: 0;
+    transform: translateY(-50%);
+    text-align: center;
+    font-family: "Jaldi", sans-serif;
+    z-index: 88;
+    .profile {
+      img {
+        border-radius: 50%;
+				width: 200px;
+				border: 1.5px solid gray;
+      }
+    }
+    h1 {
+      font-size: 3rem;
+      margin: 15px 0px 0px;
+			text-transform: uppercase;
+			color: #fff ;
+    }
+    hr {
+      width: 190px;
+      color: #fff;
+      border-radius: 10%;
+    }
+    h3 {
+      font-size: 1rem;
+      font-family: sans-serif;
+      margin: 15px 0px;
+		}
+		ul {
+			padding: 0px;
+		}
+    i {
+      color: grey;
+      margin-right: 5px;
+      &:hover {
+        transition: 1s;
+        color: #99f2c8;
+      }
+    }
+    p {
+      font-size: .5rem;
+      font-family: sans-serif;
+      margin-top: 10px;
+    }
+  }
+  
+@function create-stars($n) {
+  $stars: "#{random(5120) - 2560}px #{random($starFieldHeight)}px #FFF";
+  
+  @for $i from 2 through $n {
+    $stars: "#{$stars} , #{random(5120) - 2560}px #{random($starFieldHeight)}px #FFF";
+  }
+  
+  @return unquote($stars);
+}
+
+
+@mixin star-template($numStars, $starSize, $scrollSpeed) {
+  z-index: 10;
+  width: $starSize;
+  height: $starSize;
+  border-radius: 50%;
+  background: transparent;
+  box-shadow: create-stars($numStars);
+  animation: animStar $scrollSpeed linear infinite;
+  &:after {
+    content: " ";
+    position: absolute;
+    top: $starFieldHeight; //-$starStartOffset;
+    width: $starSize;
+    height: $starSize;
+    border-radius: 50%;
+    background: transparent;
+    box-shadow: create-stars($numStars);
+  }
+}
+    
+  
+  
+.stars {
+  @include star-template($numStarOneStars, 1px, $starOneScrollDuration);
+}
+.stars1 {
+  @include star-template($numStarTwoStars, 2px, $starTwoScrollDuration);
+}
+.stars2 {
+  @include star-template($numStarThreeStars, 3px, $starThreeScrollDuration);
+}
+
+    
+@keyframes animStar {
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(-#{$starFieldHeight}px) translateX(#{$starFieldHeight}px) ;
+  }
+}
+    
+
+
+    
