@@ -14,9 +14,7 @@ class Menu extends Component {
 		}
 	}
 	changePage(page) {
-		if (window.innerWidth > 768) {
-			this.props.changePage(page);
-		}
+		this.props.changePage(page);
 	}
 	render() {
 		return (

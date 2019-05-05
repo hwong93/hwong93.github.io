@@ -21,6 +21,7 @@ const ProjectsContent = styled.div`
 	@media screen and (min-width: 768px) {
 		height: 900px;
 		position: relative;
+		overflow: hidden;
 	}
 `;
 
@@ -138,6 +139,7 @@ class Projects extends Component {
 		});
 		return (
 			<ProjectsContainer id="projects">
+
 				<ProjectsContent>
 					<Contain>
 						<Title>Projects</Title>

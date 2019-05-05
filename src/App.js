@@ -75,9 +75,13 @@ class App extends Component {
 						<Projects />
 					)
 				}
+
 				{
 					(showPage === 'contact' || showMobile) && (
-						<Contact />
+						<div>
+								<div id="contact" />
+								<Contact />
+						</div>
 					)
 				}
 			</Wrapper>

@@ -10,8 +10,8 @@ const Container = styled.div`
 	height: 100vh;
 	display: table;
 	@media screen and (max-width: 768px) {
-		height: 100%;
 		width: 100%;
+		height: 100%;
 	}
 `;
 
@@ -28,7 +28,7 @@ const Form = styled.form`
 	margin: 0 auto;
 	padding: 40px;
 	text-align: right;
-	@media screen and (max-width: 768px) {
+	@media screen and (max-width: 767px) {
 		padding: 20px;
 		margin-bottom: 70px;
 	}
@@ -122,7 +122,7 @@ const Icon = styled.a`
 
 const Contact = () => {
 	return (
-		<Container id="#contact">
+		<Container >
 				<Content>
 					<InViewMonitor
 						classNameNotInView='vis-hidden'

@@ -13,6 +13,7 @@ const SkillsContainer = styled.div`
 const SkillsContent = styled.div`
 	width: 90%;
 	max-width: 1044px;
+	margin-top: 70px;
 	margin: 0 auto;
 `;
 
