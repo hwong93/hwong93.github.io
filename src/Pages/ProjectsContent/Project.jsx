@@ -9,14 +9,17 @@ const Container = styled.div`
 	flex: 1;
 	margin-bottom: 20px;
 	cursor: pointer;
+	height: auto;
+	transition: all 5s;
 	border: ${props => props.chosen ? `5px solid ${lightGreen}` : 'none'}
+	transition: height 5s ease-out;
 	@media screen and (min-width: 768px) {
 		margin-bottom: 0px;
 	}
 `;
 
 const ImageContainer = styled.div`
-	display: block;
+	display: block;	
 	height: auto;
 	overflow: hidden;
 	position: relative;
@@ -35,6 +38,8 @@ const Image = styled.img`
 const ContentContainer = styled.div`
 	display: block;
 	padding: 10px;
+	max-height: ${props => props.chosen ? '100px%' : '0px'};
+	overflow:hidden;
 	@media screen and (min-width: 768px) {
 		display: none;
 	}
@@ -108,7 +113,11 @@ class Project extends Component {
 				>
 					<Image src={project.image} alt={project.title}></Image>
 				</ImageContainer>
-				<ContentContainer>
+				<ContentContainer
+					key={`${this.props.chosen.title}_${project.title}`}
+					chosen={this.props.chosen.title === project.title}
+					className="animated fadeIn"
+				>
 					<Slogan>{project.slogan}</Slogan>
 					{
 						backend.length > 0 && (
