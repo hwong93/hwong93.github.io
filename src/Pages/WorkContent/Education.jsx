@@ -112,7 +112,7 @@ const Education = () => {
 						Finished nine week intensive web development course.
 					</ListLI>
 					<ListLI animationDelay="">
-						Voted best teacher and most friendly student in the class.
+						Voted best student teacher and most friendly student in the class.
 					</ListLI>
 				</InViewMonitor>
 				</ul>

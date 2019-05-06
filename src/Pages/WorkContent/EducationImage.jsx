@@ -22,14 +22,14 @@ const ImageContainer = styled.div`
 const Uconn = styled.img.attrs({
 	src: uconn,
 })`
-	width: 80%;
+	width: 70%;
 	margin: 20px;
 `;
 
 const Bitmaker = styled.img.attrs({
 	src: bitmaker,
 })`
-	width: 80%;
+	width: 70%;
 `;
 
 

@@ -32,7 +32,7 @@ class LeftContainer extends Component {
 			compProps.height = '100vh';
 		}
 		if (style === 'work') {
-			compProps.height = '500px';
+			compProps.height = 'auto';
 		}
 		return (
 			<Container props={compProps}>

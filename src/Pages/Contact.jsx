@@ -23,14 +23,16 @@ const Content = styled.div`
 
 const Form = styled.form`
 	display: block;
-	width: 80%;
-	max-width: 1024px;
-	margin: 0 auto;
+
 	padding: 40px;
-	text-align: right;
-	@media screen and (max-width: 767px) {
-		padding: 20px;
-		margin-bottom: 70px;
+	margin-bottom: 70px;
+	width: 100%;
+	@media screen and (min-width: 768px) {
+		width: 80%;
+		max-width: 1024px;
+		margin: 0 auto;
+		padding: 40px;
+		text-align: right;
 	}
 `;
 

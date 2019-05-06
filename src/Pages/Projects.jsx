@@ -27,13 +27,18 @@ const ProjectsContent = styled.div`
 
 const Contain = styled.div`
 	display: block;
-	width: 80%;
+	width: 100%;
 	max-width: 1024px;
 	margin: 0 auto;
-	padding: 20px;
+	padding: 40px;
 	clear: both;
 	@media screen and (min-width: 768px) {
 		padding: 40px;
+		width: 100%;
+	}
+	@media screen and (min-width: 1024px) {
+		padding: 40px;
+		width: 80%;
 	}
 `;
 

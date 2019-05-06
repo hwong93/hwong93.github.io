@@ -11,10 +11,15 @@ const SkillsContainer = styled.div`
 `;
 
 const SkillsContent = styled.div`
-	width: 90%;
-	max-width: 1044px;
+	width: 100%;
+	max-width: 1024px;
 	margin-top: 70px;
 	margin: 0 auto;
+	padding: 40px;
+	@media screen and (min-width: 768px) {
+		width: 90%;
+		padding: 0px;
+	}
 `;
 
 const Title = styled.h2`
