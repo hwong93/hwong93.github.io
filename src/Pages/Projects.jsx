@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import styled from 'styled-components';
 import { projects } from '../projects';
 import { green } from '../colors';
+import { crete } from '../font';
 import Project from './ProjectsContent/Project';
 import InViewMonitor from 'react-inview-monitor';
 
@@ -19,7 +20,6 @@ const ProjectsContent = styled.div`
 	display: table-cell;
 	vertical-align: middle;
 	@media screen and (min-width: 768px) {
-		height: 900px;
 		position: relative;
 		overflow: hidden;
 	}
@@ -40,6 +40,7 @@ const Contain = styled.div`
 const Title = styled.h2`
 	display: block;
 	color: ${green};
+	font-family: ${crete};
 `;
 
 const LeftSide = styled.div`

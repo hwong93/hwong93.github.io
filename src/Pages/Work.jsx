@@ -6,6 +6,8 @@ import Stars from '../Components/Stars';
 import WorkContent from './WorkContent/WorkContent';
 import Main from './WorkContent/Main';
 import WorkImage from './WorkContent/WorkImage';
+import EducationImage from './WorkContent/EducationImage';
+import Education from './WorkContent/Education';
 
 const Container = styled.div`
 	width: 100vw;
@@ -16,41 +18,41 @@ const Container = styled.div`
 	}
 `;
 
-class Work extends Component {
-	constructor(props) {
-		super(props);
-		this.components = {
-			main: Main,
-		};
-		this.state = {
-			showWork: 'main',
-		}
-	}
-	changeState(work) {
-		this.setState({
-			showWork: work,
-		});
-	}
-	render() {
-		const Component = this.components[this.state.showWork];
-		return( 
-			<Container id="experience">
+const Work = () => {
+	return(
+		<div id="experience">
+			<Container >
 				<RightContainer
 					show={
 						<WorkContent
 						changeState={(state) => this.changeState(state)}
-						component={<Component />}
+						component={<Main />}
 						styled="work"
 						/>
 					} 
 				/>
-					<LeftContainer 
-						show={<Stars component={<WorkImage />}/>}
-						styled="work"
-					/>
+				<LeftContainer 
+					show={<Stars component={<WorkImage />}/>}
+					styled="work"
+				/>
 			</Container>
-		)
-	}
+			<Container >
+				<RightContainer
+					show={<Stars component={<EducationImage />}/>}
+					styled="work"
+				/>
+				<LeftContainer 
+					styled="work"
+					show={
+						<WorkContent
+						component={<Education />}
+						styled="work"
+						/>
+					} 
+				/>
+			</Container>
+		</div>
+	)
 }
 
 export default Work;

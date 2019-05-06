@@ -27,7 +27,7 @@ var jenkins = require("./img/jenkins.svg");
 
 const expertise = [
 	{
-			title: 'Backend',
+			title: 'Back End',
 			skillSet: [
 				{
 					name: 'PHP',

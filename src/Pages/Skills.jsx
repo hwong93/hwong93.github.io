@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import { expertise } from '../expertise';
 import SkillContent from './SkillContent/SkillContent';
 import { green } from '../colors';
-import { noto } from '../font';
+import { crete } from '../font';
 
 const SkillsContainer = styled.div`
 	width: 100%;
@@ -18,7 +18,7 @@ const SkillsContent = styled.div`
 `;
 
 const Title = styled.h2`
-	font-family: ${noto};
+	font-family: ${crete};
 	color: ${green};
 `;
 

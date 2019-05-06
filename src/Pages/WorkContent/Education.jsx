@@ -23,16 +23,6 @@ const WorkYears = styled.p`
 	margin: 0;
 `;
 
-const WorkRole = styled.h4`
-	width: auto;
-	display: inline-block;
-	float: right;
-	@media screen and (max-width: 768px) {
-		float: none;
-		margin: 10px 0;
-	}
-`;
-
 const WorkDescription = styled.p`
 	padding: 0px 10px 0px;
 	border-left: 5px solid ${green};
@@ -50,10 +40,10 @@ const ListLI = styled.li`
 	animation-delay: ${props => props.animationDelay ? props.animationDelay : ''}
 `;
 
-const Main = () => {
+const Education = () => {
 	return (
-		<div style={{padding: '20px'}}>
-			<h1>Work Experience:</h1>
+		<div style={{marginTop: '20px', padding: '20px'}}>
+			<h1>Education:</h1>
 			<InViewMonitor
 				classNameNotInView='vis-hidden'
 				classNameInView='animated fadeIn' // fadeInLeft, or fadeInRight
@@ -62,11 +52,9 @@ const Main = () => {
 			>
 			<div className="work-header">
 				<WorkTitleContainer className="work-title">
-					<WorkTitle>Julia Balfour LLC.</WorkTitle>
-					<WorkRole>FullStack Developer</WorkRole>
+					<WorkTitle>University Of Connecticut</WorkTitle>
 				</WorkTitleContainer>
-				<WorkYears>Sept. 2016 - Present</WorkYears>
-				
+				<WorkYears>September 2011 - May 2015</WorkYears>
 			</div>
 			
 			</InViewMonitor>
@@ -77,9 +65,33 @@ const Main = () => {
 
 			>
 			<WorkDescription>
-				is a full-service creative agency. As a developer I build and maintain primarily WordPress sites for many clients. While I mainly focus on php, I also utilize the latest tools and technologies, such as React, ElasticSearch (v5) and Ruby on Rails. 
+				Major: Economics <br />
+				Minor: Computer Science
 			</WorkDescription>
 			</InViewMonitor>
+
+			<InViewMonitor
+				classNameNotInView='vis-hidden'
+				classNameInView='animated fadeIn' // fadeInLeft, or fadeInRight
+				intoViewMargin="-10%"
+
+			>
+			<div className="work-header" style={{marginTop: '60px'}}>
+				<WorkTitleContainer className="work-title">
+					<WorkTitle>Bitmaker</WorkTitle>
+				</WorkTitleContainer>
+				<WorkYears>March 2016 - May 2016</WorkYears>
+			</div>
+			
+			</InViewMonitor>
+			<InViewMonitor
+				classNameNotInView='vis-hidden'
+				classNameInView='animated fadeIn' // fadeInLeft, or fadeInRight\
+				intoViewMargin="-10%"
+
+			>
+
+			</InViewMonitor>	
 			<WorkAchievements className="acheivements">
 				<InViewMonitor
 					classNameNotInView='vis-hidden'
@@ -97,41 +109,16 @@ const Main = () => {
 
 				>
 					<ListLI animationDelay="">
-						Built a custom Email Creation WordPress plugin which allowed users to use data from their site to create custom emails to send to their clients using third-party email marketing services (MailChimp(REST) or ExactTarget(SOAP)).
+						Finished nine week intensive web development course.
+					</ListLI>
+					<ListLI animationDelay="">
+						Voted best teacher and most friendly student in the class.
 					</ListLI>
 				</InViewMonitor>
-				<InViewMonitor
-					classNameNotInView='vis-hidden'
-					classNameInView='animated fadeInRight' // fadeInLeft, or fadeInRight
-					intoViewMargin="-10%"
-
-				>
-					<ListLI animationDelay="0.5s">
-						Utilize ElasticSearch to create great user experience on client’s search functionality.
-					</ListLI>
-					</InViewMonitor >
-					<InViewMonitor
-					classNameNotInView='vis-hidden'
-					classNameInView='animated fadeInRight' // fadeInLeft, or fadeInRight
-					intoViewMargin="-10%"
-				>
-					<ListLI animationDelay="1s">
-						Deploy and set up servers using AWS’s services like: Redis, RDS, Load Balancers, CodePipeline.
-					</ListLI>
-					</InViewMonitor >
-					<InViewMonitor
-					classNameNotInView='vis-hidden'
-					classNameInView='animated fadeInRight' // fadeInLeft, or fadeInRight
-					intoViewMargin="-10%"
-				>
-					<ListLI animationDelay="1.5s">
-						Create DevOPs practices using services like AWS, Jenkins, Git.
-					</ListLI>
-					</InViewMonitor >
-				</ul>				
+				</ul>
 			</WorkAchievements>
 		</div>
 	);
 }	
 
-export default Main;
+export default Education;

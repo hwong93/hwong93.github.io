@@ -36,7 +36,7 @@ class HomeContent extends Component {
 					classNameInView='animated fadeIn' // fadeInLeft, or fadeInRight
 					>
 				<Copy>
-						I'm Hou-Tai, a <b>fullstack developer</b>. I currently work in a fast paced agency environment, which has made me more passionate and enthusiastic about web development. I'm a <b>hardworking,</b> <b>self-driven</b> developer who is interested in seeking new development opportunites where I can share my knowledge and learn from others.
+						I'm Hou-Tai, a <b>FullStack developer</b>. I currently work in a fast paced agency environment, which has made me more passionate and enthusiastic about web development. I'm a <b>hardworking,</b> <b>self-driven</b> developer who is interested in seeking new development opportunites where I can share my knowledge and learn from others.
 					</Copy>
 					</InViewMonitor>
 					<InViewMonitor

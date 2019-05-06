@@ -7,7 +7,7 @@ const WorkContainer = styled.div`
 	top: 50%;
 	transform: translateY(-50%);
 	@media screen and (max-width: 768px) {
-		padding: 0px 40px;
+		padding: 0px 20px;
 		top: unset;
 		transform: none;
 	}
