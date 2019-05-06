@@ -1,13 +1,13 @@
 {
   "main.css": "/static/css/main.200abbfe.chunk.css",
-  "main.js": "/static/js/main.503ca022.chunk.js",
-  "main.js.map": "/static/js/main.503ca022.chunk.js.map",
+  "main.js": "/static/js/main.1fd76150.chunk.js",
+  "main.js.map": "/static/js/main.1fd76150.chunk.js.map",
   "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
   "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
-  "static/js/2.9087271d.chunk.js": "/static/js/2.9087271d.chunk.js",
-  "static/js/2.9087271d.chunk.js.map": "/static/js/2.9087271d.chunk.js.map",
+  "static/js/2.aa054175.chunk.js": "/static/js/2.aa054175.chunk.js",
+  "static/js/2.aa054175.chunk.js.map": "/static/js/2.aa054175.chunk.js.map",
   "index.html": "/index.html",
-  "precache-manifest.92b054e6fc1f25ba43d280239c52a1e2.js": "/precache-manifest.92b054e6fc1f25ba43d280239c52a1e2.js",
+  "precache-manifest.297ade1c80a406badf4b2b06de14eb54.js": "/precache-manifest.297ade1c80a406badf4b2b06de14eb54.js",
   "service-worker.js": "/service-worker.js",
   "static/css/main.200abbfe.chunk.css.map": "/static/css/main.200abbfe.chunk.css.map",
   "static/media/CSS3.svg": "/static/media/CSS3.7415a70a.svg",
@@ -24,6 +24,7 @@
   "static/media/envelope-open-solid.svg": "/static/media/envelope-open-solid.d2b69203.svg",
   "static/media/folder.svg": "/static/media/folder.155a56e0.svg",
   "static/media/foundation.svg": "/static/media/foundation.8e3df590.svg",
+  "static/media/ga-bitmaker.svg": "/static/media/ga-bitmaker.9d02a71b.svg",
   "static/media/graphql.svg": "/static/media/graphql.6270a2d4.svg",
   "static/media/home-solid.svg": "/static/media/home-solid.07576d48.svg",
   "static/media/houtai-wong-portfolio.pdf": "/static/media/houtai-wong-portfolio.74b4085c.pdf",
@@ -41,5 +42,6 @@
   "static/media/salesforce.svg": "/static/media/salesforce.8446666e.svg",
   "static/media/seatyoself.png": "/static/media/seatyoself.e8317e09.png",
   "static/media/space.png": "/static/media/space.b5ec413d.png",
+  "static/media/uconn-wordmark-single-white.png": "/static/media/uconn-wordmark-single-white.c046f62f.png",
   "static/media/wordpress.svg": "/static/media/wordpress.ad28d74c.svg"
 }

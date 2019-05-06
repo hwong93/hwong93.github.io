@@ -1,10 +1,10 @@
 self.__precacheManifest = [
   {
-    "revision": "525f317fe9e90927edf7694d88ce42c8",
-    "url": "/static/media/HTML5svg.525f317f.svg"
+    "revision": "2a77047cbc96a7b1bc154fdf8a718271",
+    "url": "/static/media/mariadb.2a77047c.svg"
   },
   {
-    "revision": "3e14e186bedc4c18c17e",
+    "revision": "52c52454338895a84678",
     "url": "/static/css/main.200abbfe.chunk.css"
   },
   {
@@ -12,20 +12,28 @@ self.__precacheManifest = [
     "url": "/static/js/runtime~main.a8a9905a.js"
   },
   {
-    "revision": "0459f5d407a102ac3f38",
-    "url": "/static/js/2.9087271d.chunk.js"
+    "revision": "8bf8db249bba9ec4c899",
+    "url": "/static/js/2.aa054175.chunk.js"
   },
   {
     "revision": "74b4085c1ea65d3f5640459e08472425",
     "url": "/static/media/houtai-wong-portfolio.74b4085c.pdf"
   },
   {
-    "revision": "de931afce3bbfa26022b655c273c51f7",
-    "url": "/static/media/profile.de931afc.jpg"
-  },
-  {
     "revision": "e8e8f759ef0ad9a3fd65a2a7cb460431",
     "url": "/static/media/code-solid.e8e8f759.svg"
+  },
+  {
+    "revision": "c046f62f55edd8a2e28758ac218d0f6f",
+    "url": "/static/media/uconn-wordmark-single-white.c046f62f.png"
+  },
+  {
+    "revision": "9d02a71b00daa0adcc87ef918af7e3cd",
+    "url": "/static/media/ga-bitmaker.9d02a71b.svg"
+  },
+  {
+    "revision": "de931afce3bbfa26022b655c273c51f7",
+    "url": "/static/media/profile.de931afc.jpg"
   },
   {
     "revision": "5dd354ffa28e639530194562365aa7cd",
@@ -68,12 +76,12 @@ self.__precacheManifest = [
     "url": "/static/media/postgresql.d7c985e7.svg"
   },
   {
-    "revision": "2a77047cbc96a7b1bc154fdf8a718271",
-    "url": "/static/media/mariadb.2a77047c.svg"
+    "revision": "52c52454338895a84678",
+    "url": "/static/js/main.1fd76150.chunk.js"
   },
   {
-    "revision": "3e14e186bedc4c18c17e",
-    "url": "/static/js/main.503ca022.chunk.js"
+    "revision": "525f317fe9e90927edf7694d88ce42c8",
+    "url": "/static/media/HTML5svg.525f317f.svg"
   },
   {
     "revision": "7415a70abb0fbaeab688508b2d8b1ce4",
@@ -144,7 +152,7 @@ self.__precacheManifest = [
     "url": "/static/media/space.b5ec413d.png"
   },
   {
-    "revision": "be7084fee5b68970e09d310bcaa948ae",
+    "revision": "c84f058d68d77cbb4a79f70f169e12e6",
     "url": "/index.html"
   }
 ];
