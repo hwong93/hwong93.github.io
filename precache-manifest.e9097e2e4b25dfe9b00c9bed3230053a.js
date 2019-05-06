@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/static/media/mariadb.2a77047c.svg"
   },
   {
-    "revision": "52c52454338895a84678",
+    "revision": "89934cafb35954372b06",
     "url": "/static/css/main.200abbfe.chunk.css"
   },
   {
@@ -76,8 +76,8 @@ self.__precacheManifest = [
     "url": "/static/media/postgresql.d7c985e7.svg"
   },
   {
-    "revision": "52c52454338895a84678",
-    "url": "/static/js/main.1fd76150.chunk.js"
+    "revision": "89934cafb35954372b06",
+    "url": "/static/js/main.a8551f72.chunk.js"
   },
   {
     "revision": "525f317fe9e90927edf7694d88ce42c8",
@@ -152,7 +152,7 @@ self.__precacheManifest = [
     "url": "/static/media/space.b5ec413d.png"
   },
   {
-    "revision": "c84f058d68d77cbb4a79f70f169e12e6",
+    "revision": "a293d8aec819c2f0f09ba475dcea6c2d",
     "url": "/index.html"
   }
 ];
