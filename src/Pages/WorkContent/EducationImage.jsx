@@ -23,7 +23,7 @@ const Uconn = styled.img.attrs({
 	src: uconn,
 })`
 	width: 80%;
-	marign: 20px;
+	margin: 20px;
 `;
 
 const Bitmaker = styled.img.attrs({
