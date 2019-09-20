@@ -97,6 +97,7 @@ const Submit = styled.button.attrs(({ type }) => ({
 	cursor: pointer;
 	font-size: 1.15rem;
 	border: 2px solid ${green};
+	float: right;
 	&:hover {
 		background-color: white;
 		color: ${green};

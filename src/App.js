@@ -22,7 +22,7 @@ class App extends Component {
 		super(props);
 
 		this.state = {
-			showPage: 'home',
+			showPage: 'experience',
 			showMobile: false,
 		};
 	}
@@ -33,12 +33,12 @@ class App extends Component {
 			if (window.innerWidth <= 768) {
 				this.setState({
 					showMobile: true,
-					showPage: `${page[1] ? page[1] : 'home'}`,
+					showPage: `${page[1] ? page[1] : 'experience'}`,
 				});
 			} else {
 				this.setState({
 					showMobile: false,
-					showPage: `${page[1] ? page[1] : 'home'}`,
+					showPage: `${page[1] ? page[1] : 'experience'}`,
 				});
 			}
 		});

@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import logo from '../../img/JB-logo-white.svg';
+import logo from '../../img/JB-logo-white-2.svg';
 import InViewMonitor from 'react-inview-monitor';
 
 const ImageContainer = styled.div`
@@ -27,8 +27,8 @@ const WorkImage = () => {
 	return (
 		<ImageContainer>
 			<InViewMonitor
-				classNameNotInView='vis-hidden'
-				classNameInView='animated fadeInUp' // fadeInLeft, or fadeInRight
+				// classNameNotInView='vis-hidden'
+				// classNameInView='animated fadeInUp' // fadeInLeft, or fadeInRight
 			>
 				<Img/>
 			</InViewMonitor>
