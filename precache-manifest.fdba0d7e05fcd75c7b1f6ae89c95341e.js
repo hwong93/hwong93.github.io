@@ -1,27 +1,27 @@
 self.__precacheManifest = [
   {
-    "revision": "2a77047cbc96a7b1bc154fdf8a718271",
-    "url": "/static/media/mariadb.2a77047c.svg"
+    "revision": "d818a7d85e09d317c792",
+    "url": "/static/css/main.27d08905.chunk.css"
   },
   {
-    "revision": "c9d04f84abdb7e9d2a0e",
-    "url": "/static/css/main.200abbfe.chunk.css"
+    "revision": "d818a7d85e09d317c792",
+    "url": "/static/js/main.f592d327.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
     "url": "/static/js/runtime~main.a8a9905a.js"
   },
   {
-    "revision": "8bf8db249bba9ec4c899",
-    "url": "/static/js/2.aa054175.chunk.js"
-  },
-  {
-    "revision": "74b4085c1ea65d3f5640459e08472425",
-    "url": "/static/media/houtai-wong-portfolio.74b4085c.pdf"
+    "revision": "897a6e7a29a53ec8aab9",
+    "url": "/static/js/2.2b91dff3.chunk.js"
   },
   {
     "revision": "e8e8f759ef0ad9a3fd65a2a7cb460431",
     "url": "/static/media/code-solid.e8e8f759.svg"
+  },
+  {
+    "revision": "74b4085c1ea65d3f5640459e08472425",
+    "url": "/static/media/houtai-wong-portfolio.74b4085c.pdf"
   },
   {
     "revision": "c046f62f55edd8a2e28758ac218d0f6f",
@@ -36,8 +36,12 @@ self.__precacheManifest = [
     "url": "/static/media/profile.de931afc.jpg"
   },
   {
-    "revision": "5dd354ffa28e639530194562365aa7cd",
-    "url": "/static/media/JB-logo-white.5dd354ff.svg"
+    "revision": "64538570c181575c8817a4acbfec5621",
+    "url": "/static/media/JB-logo-white-2.64538570.svg"
+  },
+  {
+    "revision": "6b953f56302c6e85474ebe1f510df8c2",
+    "url": "/static/media/toast.6b953f56.svg"
   },
   {
     "revision": "07576d4831660e746151732c8e1ac5b9",
@@ -76,8 +80,8 @@ self.__precacheManifest = [
     "url": "/static/media/postgresql.d7c985e7.svg"
   },
   {
-    "revision": "c9d04f84abdb7e9d2a0e",
-    "url": "/static/js/main.e16e7ba1.chunk.js"
+    "revision": "2a77047cbc96a7b1bc154fdf8a718271",
+    "url": "/static/media/mariadb.2a77047c.svg"
   },
   {
     "revision": "525f317fe9e90927edf7694d88ce42c8",
@@ -124,6 +128,10 @@ self.__precacheManifest = [
     "url": "/static/media/magento.2cfb7d23.svg"
   },
   {
+    "revision": "6c98961d92f2459163fc3c5b084d7bba",
+    "url": "/static/media/craft-cms-vector-logo.6c98961d.svg"
+  },
+  {
     "revision": "d0109b299ad21029d9405bb59a54fdae",
     "url": "/static/media/elasticsearch.d0109b29.svg"
   },
@@ -152,7 +160,7 @@ self.__precacheManifest = [
     "url": "/static/media/space.b5ec413d.png"
   },
   {
-    "revision": "aaabe8c035fb9d13d714483186f8c010",
+    "revision": "f6b6025b462b880de1f33eaa3f12c55c",
     "url": "/index.html"
   }
 ];
